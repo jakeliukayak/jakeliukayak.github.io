@@ -91,7 +91,7 @@ body {
         linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
         var(--hero-background-image),
         linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     background-blend-mode: normal;
     color: white;
