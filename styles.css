@@ -349,6 +349,7 @@ section h2::after {
 
 .project-card {
     background: #fff;
+    justify-content: space-between;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -361,6 +362,7 @@ section h2::after {
 }
 
 .project-card h3 {
+    margin-top: auto; /* ensures button sits at the bottom */
     margin-bottom: 1rem;
     color: #333;
     font-size: 1.3rem;
@@ -370,6 +372,7 @@ section h2::after {
     color: #666;
     line-height: 1.6;
     margin-bottom: 1.5rem;
+    flex-grow: 1; /* makes the description take available space */
 }
 
 .project-links {
