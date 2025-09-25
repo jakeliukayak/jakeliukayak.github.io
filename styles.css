@@ -86,7 +86,7 @@ body {
 .hero {
     /* To change the background image, update the --hero-background-image custom property below
        Example: --hero-background-image: url('path/to/your/background-image.jpg'); */
-    --hero-background-image: none; /* CSS custom property for easy background customization */
+    --hero-background-image: url(images/background); /* CSS custom property for easy background customization */
     background: 
         var(--hero-background-image),
         linear-gradient(135deg, #667eea 0%, #764ba2 100%);
