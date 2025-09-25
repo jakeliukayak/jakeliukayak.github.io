@@ -16,10 +16,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.addEventListener('scroll', function() {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 100) {
-        navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+        navbar.style.background = 'rgba(42, 42, 42, 0.95)';
         navbar.style.backdropFilter = 'blur(10px)';
     } else {
-        navbar.style.background = '#fff';
+        navbar.style.background = '#2a2a2a';
         navbar.style.backdropFilter = 'none';
     }
 });
