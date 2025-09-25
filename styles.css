@@ -376,10 +376,15 @@ section h2::after {
 }
 
 .project-links {
-    display: flex;
-    gap: 1rem;
-    margin-top: auto;  /* ensures links/buttons align at bottom */
+  margin: 0;        /* remove default margin */
+  padding: 0;       /* reset padding */
 }
+
+.project-links span {
+  display: inline-block; /* keeps the span styled like a button */
+}
+
+
 
 /* Contact Section */
 .contact {
