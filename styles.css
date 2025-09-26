@@ -335,6 +335,7 @@ section h2::after {
 }
 
 /* Projects Section */
+
 .projects {
     background: #242424;
 }
@@ -373,6 +374,18 @@ section h2::after {
     line-height: 1.6;
     margin-bottom: 1.5rem;
     flex-grow: 1;
+}
+
+.project-card button {
+  background-color: #444;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0; /* Remove any default margin */
+  display: block; /* Ensure button takes full width of container if needed */
+  width: 100%; /* Optional: Makes button full width of card */
 }
 
 .project-links {
